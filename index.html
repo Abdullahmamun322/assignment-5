@@ -1,16 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-5</title>
-</head>
-<body>
-    <header>
 
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- Writing style -->
+
+<style>
+    .lexend{
+        font-family: "Lexend", sans-serif;
+    }
+</style>
+
+    <!-- daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Button color style -->
+
+    <!-- <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "navbar": "#FED7AA",
+                        'button-primary': '#ABEF5F',
+
+                    },
+                },
+            },
+        }
+    </script> -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+
+
+</head>
+<body class="lexend">
+
+    <!-- Header section -->
+
+    <header class="bg-amber-100 h-43">
+        <nav class="container mx-auto">
+
+            <div class="navbar ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                   
+                  </div>
+                  <a class="btn button-primary bg-lime-300 py-2 px-8 text-xl">Blog</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <img src="assets/logo.png" alt="">
+                    <li><a class="text-lg">Donate Bangladesh</a></li>
+                   
+                   
+                  </ul>
+                </div>
+                <div class="navbar-end mr-12">
+                  <img src="assets/coin.png" alt="" class="mr-3">
+                  <a class=" text-lg">5500 BDT</a>
+                </div>
+              </div>       
+        </nav>       
     </header>
 
+
+    <!-- <div class="flex justify-center mt-10">
+      <button class="rounded-lg mt-9 bg-lime-300 mr-7 
+      sm:btn-sm md:btn-md lg:btn-lg text-xl py- px-9">Donation</button>
+      <button class=" hover:bg-lime-300 rounded-lg border-2 sm:btn-sm mt-9 md:btn-md  py-1 px-9 text-xl lg:btn-lg">History</button>
+    </div> -->
+
+
     <main>
+
+      <section>
+        <div class="flex justify-center mt-10">
+          <button class="rounded-lg mt-9 bg-lime-300 mr-7 
+          sm:btn-sm md:btn-md lg:btn-lg text-xl py- px-9">Donation</button>
+          <button class=" hover:bg-lime-300 rounded-lg border-2 sm:btn-sm mt-9 md:btn-md  py-1 px-9 text-xl lg:btn-lg">History</button>
+        </div>
+      </section>
+
+
+     
+        <!-- First card start -->
+      
+      
+     <section class="   justify-center rounded-xl  gap-3 border py-5 mt-10   px-4">
+      <div class="flex">
+
+        <div>
+          <img src="assets/noakhali.png"   alt="">
+          
+        </div>
+
+        <div class="ml-8" >                            
+            <button class="btn bg-lime-300"> <img src="assets/coin.png" alt="">0 BDT</button>         
+          <p class="text-black font-bold mt-4">Donate for Flood at Noakhali,Bangladesh</p>
+          <p class="text-gray-700 mt-4"> The recent floods in Noakhali have caused significant damage to <br>homes  infrastructure.
+             Your donation will help provide essential <br>supplies and  to those affected by this disaster.
+              Every contribution,<br> big or small, makes  difference. Please join us in supporting the 
+              relief <br>efforts and making a positive impact on the lives of those in need.</p>
+
+           <input type="text" placeholder="Write Donation amount" class="input input-bordered mt-4 container  py-8 px-4" required />
+          <button class="border rounded-lg mt-4 container py-5 mx:auto  font-bold text-xl bg-lime-300">Donate Now</button>
+        </div>
+      </div>
+     </section>
+
+
+      <!-- First card End -->
+
+      <!-- Second card start -->
+        
+
+      <!-- <section>
+        <div class="flex justify-center px-5 absolute rounded-xl  gap-3 border py-5 mt-15">
+          <div>
+            <img src="assets/feni.png"   alt="">
+            
+          </div>
+    
+          <div class="ml-8" >                            
+              <button class="btn bg-lime-300"> <img src="assets/coin.png" alt="">600 BDT</button>         
+            <p class="text-black font-bold mt-4">Donate for Flood Relief  in Feni,Bangladesh</p>
+            <p class="text-gray-700 mt-4"> The recent floods in Noakhali have caused significant damage to <br>homes  infrastructure.
+               Your donation will help provide essential <br>supplies and  to those affected by this disaster.
+                Every contribution,<br> big or small, makes  difference. Please join us in supporting the 
+                relief <br>efforts and making a positive impact on the lives of those in need.</p>
+    
+             <input type="text" placeholder="Write Donation amount" class="input input-bordered mt-4 container  py-8 px-4" required />
+            <button class="border rounded-lg mt-4 container py-5 mx:auto  font-bold text-xl bg-lime-300">Donate Now</button>
+          </div>
+    
+        </div>
+     
+      </section> -->
+
+
+
+
+
+
+
+
 
     </main>
 
